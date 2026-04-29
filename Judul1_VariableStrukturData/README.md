@@ -15,3 +15,4 @@ Dan selanjutnya akan menanyakan kembali apakah mau menambahkan pasien lagi atau 
 akan kembali menanyakan nama pasien, menambahkan nama pasien ke antrean, dan yang terakhir menanyakan kembali. 
 Setelah itu menu selanjutnya adalah menu untuk melayani pasien, menu ini akan menampilkan pasien yang sudah didaftarkan dan akan melayani pasien terdepan.
 Dan yang terakhir ada menu untuk menampilkan antrean pasien.
+<img width="454" height="502" alt="image" src="https://github.com/user-attachments/assets/a1f4a74c-eb2d-4718-9dc3-ec5bc532afa3" />
