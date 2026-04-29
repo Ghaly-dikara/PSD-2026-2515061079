@@ -23,3 +23,6 @@ Dan yang terakhir ada menu untuk menampilkan antrean pasien.
 <img width="546" height="379" alt="image" src="https://github.com/user-attachments/assets/aca2b281-d360-4c83-8161-907ab42e19cd" />
 Output :
 <img width="504" height="790" alt="image" src="https://github.com/user-attachments/assets/9af03e19-1c4d-4b16-9ae8-291295218ec6" />
+<img width="511" height="207" alt="image" src="https://github.com/user-attachments/assets/54171867-440d-4445-b255-202f85ba18bc" />
+Youtube:
+https://www.youtube.com/watch?v=WzYYh1PoCaY
