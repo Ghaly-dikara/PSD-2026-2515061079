@@ -16,14 +16,16 @@ akan kembali menanyakan nama pasien, menambahkan nama pasien ke antrean, dan yan
 Setelah itu menu selanjutnya adalah menu untuk melayani pasien, menu ini akan menampilkan pasien yang sudah didaftarkan dan akan melayani pasien terdepan.
 Dan yang terakhir ada menu untuk menampilkan antrean pasien.
 
-Source code:
+# Source code:
 <img width="454" height="502" alt="image" src="https://github.com/user-attachments/assets/a1f4a74c-eb2d-4718-9dc3-ec5bc532afa3" />
 <img width="729" height="394" alt="image" src="https://github.com/user-attachments/assets/15792d1b-7acb-4de7-be1b-7e21d8856580" />
 <img width="793" height="389" alt="image" src="https://github.com/user-attachments/assets/5587152a-5a49-404f-9d7b-3c2ca7ab31e0" />
 <img width="740" height="551" alt="image" src="https://github.com/user-attachments/assets/f93a96ce-adfc-4080-acd6-2d984dc73e31" />
 <img width="866" height="368" alt="image" src="https://github.com/user-attachments/assets/47addacb-d198-435e-8992-14096d6083d2" />
 <img width="546" height="379" alt="image" src="https://github.com/user-attachments/assets/aca2b281-d360-4c83-8161-907ab42e19cd" />
-Penjelasan :
+
+# Penjelasan :
+
 Baris 1: Membuat Class Node, ibarat cetakan untuk membuat objek satu orang pasien.
 
 Baris 2: Fungsi inisialisasi awal setiap kali ada pasien baru yang dibuat.
@@ -71,7 +73,6 @@ Baris 22: (Baris kosong)
 Baris 23: Fungsi untuk memasukkan pasien ke posisi paling belakang (Jalur Reguler).
 
 Baris 24: Mengecek apakah antrean masih kosong.
-
 
 Baris 25: Jika kosong, dia jadi yang paling depan.
 
@@ -128,7 +129,6 @@ Baris 50: Jika sudah habis, cetak teks "None" di ujung antrean.
 Baris 51: (Baris kosong)
 
 Baris 52: Fungsi untuk menampilkan menu program di layar.
-
 
 Baris 53: Mencetak teks pertanyaan menu.
 
@@ -256,8 +256,9 @@ Baris 114: (Baris kosong)
 
 Baris 115: Menjalankan fungsi main() agar seluruh logika dari atas hingga bawah mulai beroperasi.
 
-Output :
+# Output :
 <img width="504" height="790" alt="image" src="https://github.com/user-attachments/assets/9af03e19-1c4d-4b16-9ae8-291295218ec6" />
 <img width="511" height="207" alt="image" src="https://github.com/user-attachments/assets/54171867-440d-4445-b255-202f85ba18bc" />
+
 Youtube:
 https://www.youtube.com/watch?v=WzYYh1PoCaY
