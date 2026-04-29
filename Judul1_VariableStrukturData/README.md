@@ -24,8 +24,8 @@ Source code:
 <img width="866" height="368" alt="image" src="https://github.com/user-attachments/assets/47addacb-d198-435e-8992-14096d6083d2" />
 <img width="546" height="379" alt="image" src="https://github.com/user-attachments/assets/aca2b281-d360-4c83-8161-907ab42e19cd" />
 Penjelasan :
-\nBaris 1: Membuat Class Node, ibarat cetakan untuk membuat objek satu orang pasien.
-\nBaris 2: Fungsi inisialisasi awal setiap kali ada pasien baru yang dibuat.
+Baris 1: Membuat Class Node, ibarat cetakan untuk membuat objek satu orang pasien.
+Baris 2: Fungsi inisialisasi awal setiap kali ada pasien baru yang dibuat.
 Baris 3: Menyimpan nama pasien ke dalam node tersebut.
 Baris 4: Mengatur penunjuk (pointer) ke antrean pasien berikutnya menjadi kosong (None) karena dia belum punya orang di belakangnya.
 Baris 5: (Baris kosong)
