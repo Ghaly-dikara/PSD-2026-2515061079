@@ -16,3 +16,6 @@ akan kembali menanyakan nama pasien, menambahkan nama pasien ke antrean, dan yan
 Setelah itu menu selanjutnya adalah menu untuk melayani pasien, menu ini akan menampilkan pasien yang sudah didaftarkan dan akan melayani pasien terdepan.
 Dan yang terakhir ada menu untuk menampilkan antrean pasien.
 <img width="454" height="502" alt="image" src="https://github.com/user-attachments/assets/a1f4a74c-eb2d-4718-9dc3-ec5bc532afa3" />
+<img width="729" height="394" alt="image" src="https://github.com/user-attachments/assets/15792d1b-7acb-4de7-be1b-7e21d8856580" />
+<img width="793" height="389" alt="image" src="https://github.com/user-attachments/assets/5587152a-5a49-404f-9d7b-3c2ca7ab31e0" />
+<img width="740" height="551" alt="image" src="https://github.com/user-attachments/assets/f93a96ce-adfc-4080-acd6-2d984dc73e31" />
