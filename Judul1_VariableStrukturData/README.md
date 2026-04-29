@@ -1,0 +1,17 @@
+Sistem Pelayanan Pasien Rumah Sakit
+
+Sistem ini merupakan sistem yang berjalan di python menggunakan algoritma LinkedList, dari algoritma tersebut saya gunakan class Node dan LinkedList itu sendiri.
+Didalam Class Linked List menggunakan fungsi-fungsi untuk menambahkan pasien dari depan dan belakang, melayani pasien terdepan, dan menampilkan barisan pasien.
+Setelah itu ada fungsi menu, menu pertama untuk mendaftarkan pasien dengan menginputkan nama. Yang kedua untuk melayani pasien terdepan.
+yang ketiga untuk menampilkan antrean.
+Dan yang terakhir adalah untuk menghentikan program.
+
+Dan yang terakhir ada fungsi utama, yang berisikan sebagai berikut. Yang pertama akan memanggil Class Linkedlist menjadi ll, kedua menggunakan while True
+selanjutnya akan memanggil fungsi menu dan akan meminta user untuk menginput angka yang akan memilih salah satu dari menu yang ditampilkan.
+Menu yang pertama ada menambahkan pasien.
+menu ini akan otomatis jalan karena perkondisian True yang dijalankan akan meminta user meninput nama pasien saat sistem dijalankan, 
+dan menciptakan antrean baru (LinkedList). Setelah itu sistem akan meminta input apakah ingin ditaruh didepan atau belakang antrean.
+Dan selanjutnya akan menanyakan kembali apakah mau menambahkan pasien lagi atau tidak. Jika Ya,
+akan kembali menanyakan nama pasien, menambahkan nama pasien ke antrean, dan yang terakhir menanyakan kembali. 
+Setelah itu menu selanjutnya adalah menu untuk melayani pasien, menu ini akan menampilkan pasien yang sudah didaftarkan dan akan melayani pasien terdepan.
+Dan yang terakhir ada menu untuk menampilkan antrean pasien.
