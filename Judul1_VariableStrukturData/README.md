@@ -19,3 +19,5 @@ Dan yang terakhir ada menu untuk menampilkan antrean pasien.
 <img width="729" height="394" alt="image" src="https://github.com/user-attachments/assets/15792d1b-7acb-4de7-be1b-7e21d8856580" />
 <img width="793" height="389" alt="image" src="https://github.com/user-attachments/assets/5587152a-5a49-404f-9d7b-3c2ca7ab31e0" />
 <img width="740" height="551" alt="image" src="https://github.com/user-attachments/assets/f93a96ce-adfc-4080-acd6-2d984dc73e31" />
+<img width="866" height="368" alt="image" src="https://github.com/user-attachments/assets/47addacb-d198-435e-8992-14096d6083d2" />
+<img width="546" height="379" alt="image" src="https://github.com/user-attachments/assets/aca2b281-d360-4c83-8161-907ab42e19cd" />
