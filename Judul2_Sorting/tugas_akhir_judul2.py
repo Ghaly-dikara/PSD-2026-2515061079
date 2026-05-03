@@ -3,7 +3,6 @@ def tukar(arr, i, j):
     arr[i] = arr[j]
     arr[j] = temp
 
-
 def selection_sort(arr, n):
     for i in range(n - 1):
         pos = i
