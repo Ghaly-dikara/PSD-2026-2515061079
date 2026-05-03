@@ -1,5 +1,5 @@
 # Sistem Pengurutan Nilai Mahasiswa menggunakan Selection Sort
-
+Sistem ini merupakan sistem yang berjalan di python dengan menggunakan Selection Sort untuk mengelola data nilai mahasiswa yang telah diinputkan. yang pertama dalam program ini berisikan fungsi untuk menukar nilai dari variabel temp yang dibuat untuk menyimpan nilai dari array ber indeks i dan array dengan indeks i akan menyimpan nilai dari array berindeks j, dan array berindeks j yang akan menyimpan nilai dari variabel temp. fungsi dibuat untuk menukar nilai yang digunakan dalam fungsi selection sort. Selanjutnya ada fungsi selection sort yang berisi perulangan untuk indeks i yang dimulai dari 
 
 # Source Code:
 <img width="365" height="592" alt="image" src="https://github.com/user-attachments/assets/e8dede21-db83-4fd0-98b5-71dd107c21a8" />
