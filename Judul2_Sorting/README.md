@@ -110,9 +110,9 @@ Baris 50: Mencetak teks "Klasifikasi nilai (setelah diurutkan):".
 
 Baris 51: Melakukan perulangan i sebanyak n kali.
 
-Baris 52: Memanggil fungsi klasifikasi_nilai terhadap arr[i] lalu menyimpannya di variabel grade.
+Baris 52: Memanggil fungsi klasifikasi_nilai terhadap arr[i] lalu menyimpannya di variabel nilai.
 
-Baris 53: Mencetak nilai angka beserta hasil huruf mutu (grade) mahasiswa tersebut.
+Baris 53: Mencetak nilai angka beserta hasil huruf mutu (nilai) mahasiswa tersebut.
 
 Baris 54: Baris kosong.
 
