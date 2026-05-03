@@ -121,5 +121,5 @@ Baris 55: Memeriksa apakah file script ini dijalankan secara langsung sebagai pr
 Baris 56: Memanggil fungsi main() untuk mulai menjalankan seluruh alur program.
 
 # Output:
-<img width="468" height="200" alt="image" src="https://github.com/user-attachments/assets/364b6062-8ac9-4133-b684-a8d5fcc53b8a" />
-<img width="320" height="105" alt="image" src="https://github.com/user-attachments/assets/47ce14fb-44ed-4502-a3c4-1b72a725613c" />
+<img width="462" height="180" alt="image" src="https://github.com/user-attachments/assets/3a57fb1d-0270-4c29-bb7a-b183ccf06805" />
+<img width="317" height="106" alt="image" src="https://github.com/user-attachments/assets/751b1c48-068d-469d-bdc6-cccb887e654b" />
