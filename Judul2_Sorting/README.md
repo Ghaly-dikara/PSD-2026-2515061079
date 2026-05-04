@@ -125,3 +125,6 @@ Baris 56: Memanggil fungsi main() untuk mulai menjalankan seluruh alur program.
 # Output:
 <img width="462" height="180" alt="image" src="https://github.com/user-attachments/assets/3a57fb1d-0270-4c29-bb7a-b183ccf06805" />
 <img width="317" height="106" alt="image" src="https://github.com/user-attachments/assets/751b1c48-068d-469d-bdc6-cccb887e654b" />
+
+Youtube:
+https://youtu.be/NZXgVH-SXEY
