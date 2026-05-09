@@ -151,3 +151,6 @@ Baris 68: Baris kosong.
 Baris 69: Mengecek apakah file Python ini dijalankan secara langsung (bukan diimpor oleh file lain).
 
 Baris 70: Menjalankan fungsi main() untuk memulai seluruh proses program di atas.
+
+# Output:
+<img width="976" height="722" alt="image" src="https://github.com/user-attachments/assets/30fd7ef9-60c2-44fa-b7cf-deeb5ac9ed0c" />
