@@ -1,0 +1,4 @@
+# Sistem Pengelolaan Barang pada Toko
+
+Sistem ini adalah sistem yang berjalan menggunakan bahasa pemrograman python dan algoritma pencarian sequential (sequential search) yang berfungsi untuk menambah barang dari penyimpanan, menghapus barang dari penyimpanan, dan mengecek stok barang dengan kode barang.
+Didalam sistem ini terdapat berbagai fungsi, yang pertama adalah fungsi menu yang menampilkan menu untuk menambah, menghapus, mengecek, dan keluar dari sistem. Yang kedua ada fungsi sequential search yang mencari kode barang dalam array menggunakan indeks. Fungsi ini mengecek dari kode barang pertama hingga kode barang terakhir yang ada pada array. Dan yang ketiga ada fungsi utama yang terdapat data stok barang, dan menu serta fungsi yang akan dijalankan sesuai dengan apa yang diingginkan (diinput oleh user)
