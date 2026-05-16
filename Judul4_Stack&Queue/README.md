@@ -4,8 +4,12 @@ Sistem ini merupakan simulasi history browser yang memakai bahasa pemrograman py
 Class StackArray digunakan untuk membuat stack yang dimana setiap ada StackArray tidak diperlukan pemanggilan, fungsi is_empty() untuk cek apakah Stack kosong atau tidak, fungsi is_full() mengecek stack penuh atau tidak, fungsi push yang berguna untuk menambahkan history browsing ke dalam stack. Fungsi pop() berguna untuk menghapus elemen terakhir pada array, dalam kasus ini digunakan untuk keluar dari halaman website yang terakhir diakses, fungsi peek() untuk menampilkan situs yang sedang diakses (digunakan untuk mengakses elemen terakhir stack tanpa menghapusnya, dan fungsi display() yang berfungsi untuk menampilkan full history browser dari yang terbaru ke yang terlama. Terakhir adalah fungsi utama, yang berisikan menu-menu untuk mengunjungi web, kembali, lihat halaman sekarang yang sedang diakses, dan keluar dari browser.
 
 ## Source Code:
+<img width="682" height="833" alt="image" src="https://github.com/user-attachments/assets/4a2ea753-e2bf-4e88-80af-a5b897dac043" />
+<img width="695" height="608" alt="image" src="https://github.com/user-attachments/assets/f66272c7-d46c-464d-975d-45aaa902e2e2" />
+
 
 ## Penjelasan:
+
 
 ## Output:
 
