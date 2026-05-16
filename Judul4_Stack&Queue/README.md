@@ -1,1 +1,4 @@
 # Sistem Simulasi History Browser
+Sistem ini merupakan simulasi history browser yang memakai bahasa pemrograman python. Dalam sistem ini menggunakan struktur data Stack dalam mekanisme penyimpanan elemennya. Terdapat class StackArray, fungsi is_empty() untuk cek apakah Stack kosong atau tidak, fungsi is_full() mengecek stack penuh atau tidak, fungsi push yang berguna untuk menambahkan history browsing ke dalam stack. Fungsi pop() berguna untuk menghapus elemen terakhir pada array, dalam kasus ini digunakan untuk keluar dari halaman website yang terakhir diakses, fungsi peek() untuk menampilkan situs yang sedang diakses (digunakan untuk mengakses elemen terakhir stack tanpa menghapusnya, dan fungsi display() yang berfungsi untuk menampilkan full history browser dari yang terbaru ke yang terlama.
+
+Terakhir adalah fungsi utama, yang berisikan menu-menu untuk mengunjungi web, kembali, lihat halaman sekarang yang sedang diakses, dan keluar dari browser.
