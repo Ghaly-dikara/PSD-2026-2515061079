@@ -374,6 +374,7 @@ Baris 180: Jika ya, jalankan fungsi main() untuk memanggil program keseluruhan.
 ## Output:
 <img width="468" height="643" alt="image" src="https://github.com/user-attachments/assets/bfdc8cd7-569b-49f6-9f2b-9e7b260a820b" />
 <img width="554" height="840" alt="image" src="https://github.com/user-attachments/assets/9f654ac3-cc58-45ad-86ce-a2bb9c0428e2" />
+
 <img width="367" height="195" alt="image" src="https://github.com/user-attachments/assets/015137a5-9d5d-44e3-b319-3eb120c4bd77" />
 
 
