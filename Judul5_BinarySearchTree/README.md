@@ -372,11 +372,9 @@ Baris 179: Perintah untuk mengecek apakah script Python ini dieksekusi secara la
 Baris 180: Jika ya, jalankan fungsi main() untuk memanggil program keseluruhan.
 
 ## Output:
-<img width="468" height="643" alt="image" src="https://github.com/user-attachments/assets/bfdc8cd7-569b-49f6-9f2b-9e7b260a820b" />
-<img width="554" height="840" alt="image" src="https://github.com/user-attachments/assets/9f654ac3-cc58-45ad-86ce-a2bb9c0428e2" />
-
-
-<img width="367" height="195" alt="image" src="https://github.com/user-attachments/assets/015137a5-9d5d-44e3-b319-3eb120c4bd77" />
+<img width="461" height="870" alt="image" src="https://github.com/user-attachments/assets/1ab38de5-fc17-4a2e-8820-6adf7fc137bc" />
+<img width="551" height="804" alt="image" src="https://github.com/user-attachments/assets/ad5330e3-4dd8-496b-b072-d82509f15ad9" />
+<img width="581" height="186" alt="image" src="https://github.com/user-attachments/assets/282f5f9e-8849-4b19-9535-38fa0ffb4345" />
 
 
 ### Youtube:
