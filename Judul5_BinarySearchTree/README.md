@@ -12,365 +12,351 @@ Sistem ini merupakan simuali antrean pesanan menggunakan struktur data binary se
 
 ## Penjelasan:
 
-Baris 1: Mendefinisikan class Node untuk membuat simpul (node) pada struktur data Tree.
+Baris 1: Mendefinisikan class Node sebagai kerangka/elemen pembentuk pohon (tree).
 
-Baris 2: Membuat fungsi inisialisasi awal saat objek Node baru dibuat.
+Baris 2: Fungsi awal (konstruktor) yang otomatis jalan saat sebuah Node baru dibuat.
 
-Baris 3: Menyimpan variabel key yang nantinya digunakan untuk menyimpan nomor antrean.
+Baris 3: Menyimpan nomor antrean sebagai kunci pencarian utama (key).
 
-Baris 4: Menyimpan variabel key2 yang digunakan untuk menyimpan nama menu pesanan.
+Baris 4: Menyimpan nama menu pesanan sebagai data tambahan (key2).
 
-Baris 5: Mengatur petunjuk cabang kiri (left) menjadi kosong (None).
+Baris 5: Menyiapkan jalur/penunjuk ke anak sebelah kiri, awalnya dikosongkan.
 
-Baris 6: Mengatur petunjuk cabang kanan (right) menjadi kosong (None).
+Baris 6: Menyiapkan jalur/penunjuk ke anak sebelah kanan, awalnya dikosongkan.
 
-Baris 7: (Baris kosong untuk memisahkan antar class/fungsi)
+Baris 7: (Baris kosong)
 
 Baris 8: (Baris kosong)
 
-Baris 9: Mendefinisikan class BSTLanjut untuk mengelola sistem Binary Search Tree (BST).
+Baris 9: Mendefinisikan class BSTLanjut (Binary Search Tree) khusus untuk mengatur logika antrean.
 
-Baris 10: Fungsi inisialisasi awal saat objek BSTLanjut dibuat.
+Baris 10: Fungsi awal saat sistem BST dibuat pertama kali.
 
-Baris 11: Mengatur posisi puncak (akar/root) dari tree menjadi kosong.
+Baris 11: Menetapkan akar (root) atau pusat dari pohon dengan kondisi awal kosong.
 
 Baris 12: (Baris kosong)
 
-Baris 13: Fungsi rekursif untuk menyisipkan node baru ke tempat yang sesuai.
+Baris 13: Fungsi khusus yang bekerja berulang (rekursif) untuk memasukkan node baru ke posisi yang pas.
 
-Baris 14: Mengecek apakah posisi root/node saat ini sedang kosong.
+Baris 14: Jika posisi/cabang saat ini masih kosong...
 
-Baris 15: Jika kosong, letakkan node baru beserta antrean dan nama pesanannya di posisi tersebut.
+Baris 15: ...buat dan letakkan node baru berisi antrean dan pesanan tersebut di sini.
 
-Baris 16: Mengecek apakah nomor antrean baru lebih kecil dari nomor node saat ini.
+Baris 16: Jika nomor antrean baru lebih kecil dari nomor di cabang saat ini...
 
-Baris 17: Jika ya, geser ke kiri dan ulangi pencarian posisi kosong di cabang kiri.
+Baris 17: ...geser pencarian untuk memasukkan pesanan ke cabang sebelah kiri.
 
-Baris 18: Mengecek apakah nomor antrean baru lebih besar dari nomor node saat ini.
+Baris 18: Sebaliknya, jika nomor antrean baru lebih besar dari nomor saat ini...
 
-Baris 19: Jika ya, geser ke kanan dan ulangi pencarian posisi kosong di cabang kanan.
+Baris 19: ...geser pencarian untuk memasukkan pesanan ke cabang sebelah kanan.
 
-Baris 20: Mengembalikan node yang telah dimasukkan posisi barunya.
+Baris 20: Kembalikan struktur pohon yang sudah diperbarui dengan node baru.
 
 Baris 21: (Baris kosong)
 
-Baris 22: Fungsi pembantu agar penyisipan lebih mudah dipanggil dari luar (cukup input dua variabel).
+Baris 22: Fungsi utama penyisipan pesanan agar mudah dipanggil dari luar.
 
-Baris 23: Memperbarui self.root dengan memanggil fungsi insert_node mulai dari puncak.
+Baris 23: Memulai proses penyisipan pesanan mulai dari titik awal (akar/root) pohon.
 
 Baris 24: (Baris kosong)
 
-Baris 25: Fungsi untuk mencari node yang memiliki angka paling kecil.
+Baris 25: Fungsi untuk mencari pesanan dengan nomor antrean paling kecil di suatu cabang.
 
-Baris 26: Memulai pencarian dari node yang dilempar sebagai argumen (variabel current).
+Baris 26: Jadikan posisi awal (root) sebagai titik mulai pencarian.
 
-Baris 27: Melakukan perulangan selama masih ada cabang kiri.
+Baris 27: Selama masih ada node saat ini dan node di cabang sebelah kirinya...
 
-Baris 28: Terus bergeser ke cabang kiri (karena sebelah kiri selalu lebih kecil pada BST).
+Baris 28: ...terus bergeser ke cabang paling kiri karena angka terkecil ada di sana.
 
-Baris 29: Mengembalikan node dengan nilai terkecil yang ditemukan.
+Baris 29: Kembalikan node yang berisi nomor paling kecil tersebut.
 
 Baris 30: (Baris kosong)
 
-Baris 31: Fungsi rekursif untuk menghapus node berdasarkan nomor antreannya.
+Baris 31: Fungsi untuk mencari dan menghapus pesanan tertentu di dalam sistem pohon.
 
-Baris 32: Jika node yang dicek ternyata kosong (data tidak ditemukan).
+Baris 32: Jika pohonnya kosong (atau antrean tidak ditemukan)...
 
-Baris 33: Langsung kembalikan nilai None (tidak ada yang dihapus).
+Baris 33: ...hentikan pencarian dan kembalikan penanda kosong (None).
 
-Baris 34: Jika angka yang mau dihapus lebih kecil dari node saat ini.
+Baris 34: Jika nomor yang ingin dihapus lebih kecil dari posisi saat ini...
 
-Baris 35: Bergeser mencari node tersebut ke cabang kiri.
+Baris 35: ...cari dan hapus pesanan tersebut di bagian kiri pohon.
 
-Baris 36: Jika angka yang mau dihapus lebih besar dari node saat ini.
+Baris 36: Jika nomor yang ingin dihapus lebih besar dari posisi saat ini...
 
-Baris 37: Bergeser mencari node tersebut ke cabang kanan.
+Baris 37: ...cari dan hapus pesanan tersebut di bagian kanan pohon.
 
-Baris 38: Jika angka yang dicari sama (node ditemukan!).
+Baris 38: Jika akhirnya pesanan yang dicari cocok dengan posisi saat ini...
 
-Baris 39: Cek apakah node tersebut tidak punya cabang kiri dan kanan (disebut daun).
+Baris 39: Cek jika pesanan ini ada di ujung (tidak punya cabang kiri dan kanan)...
 
-Baris 40: Langsung hapus dengan mengembalikan nilai None.
+Baris 40: ...langsung hapus (ubah menjadi kosong/None).
 
-Baris 41: Cek apakah node tersebut hanya punya cabang kanan.
+Baris 41: Jika pesanan ini hanya tidak punya cabang kiri (punya cabang kanan)...
 
-Baris 42: Gantikan posisi node yang dihapus dengan anak kanannya.
+Baris 42: ...timpa posisi saat ini dengan cabang kanannya.
 
-Baris 43: Cek apakah node tersebut hanya punya cabang kiri.
+Baris 43: Jika pesanan ini hanya tidak punya cabang kanan (punya cabang kiri)...
 
-Baris 44: Gantikan posisi node yang dihapus dengan anak kirinya.
+Baris 44: ...timpa posisi saat ini dengan cabang kirinya.
 
-Baris 45: Jika node tersebut memiliki kedua anak (kiri dan kanan).
+Baris 45: Jika pesanan ini punya anak di kedua cabang (kiri dan kanan)...
 
-Baris 46: Cari node penerus pengganti dari nilai terkecil di cabang kanan (successor).
+Baris 46: ...cari nilai terkecil di cabang kanan sebagai penggantinya (successor).
 
-Baris 47: Ganti nomor antrean node saat ini dengan milik successor.
+Baris 47: Ganti nomor antrean saat ini dengan nomor penggantinya.
 
-Baris 48: Ganti nama pesanan node saat ini dengan milik successor.
+Baris 48: Ganti nama menu pesanan saat ini dengan nama menu penggantinya.
 
-Baris 49: Hapus posisi successor yang asli dari cabang kanan.
+Baris 49: Hapus node pengganti yang asli dari posisi asalnya di cabang sebelah kanan.
 
-Baris 50: Mengembalikan struktur root/node yang sudah diperbarui.
+Baris 50: Kembalikan struktur cabang yang baru setelah penghapusan selesai.
 
 Baris 51: (Baris kosong)
 
-Baris 52: Fungsi pembantu agar perintah hapus mudah dipanggil dari luar program.
+Baris 52: Fungsi utama penghapusan pesanan agar mudah dipanggil dari luar.
 
-Baris 53: Memanggil kembali delete_node mulai dari root agar keseluruhan tree diperbarui.
+Baris 53: Memulai proses pencarian dan penghapusan mulai dari titik akar (root).
 
 Baris 54: (Baris kosong)
 
-Baris 55: Fungsi untuk menghitung tinggi dari tree.
+Baris 55: Fungsi untuk menampilkan daftar seluruh pesanan tingkat demi tingkat dari atas ke bawah.
 
-Baris 56: Jika tree/node kosong.
+Baris 56: Cek, jika akar pohon kosong sama sekali...
 
-Baris 57: Kembalikan nilai -1.
+Baris 57: ...tampilkan teks bahwa "Tidak ada pesanan".
 
-Baris 58: Hitung tinggi cabang kiri dengan memanggil fungsi diri sendiri (rekursif).
+Baris 58: Hentikan fungsi karena tidak ada yang perlu ditampilkan.
 
-Baris 59: Hitung tinggi cabang kanan dengan cara yang sama.
+Baris 59: Siapkan antrean buatan (queue) berupa daftar kosong untuk membantu proses cetak.
 
-Baris 60: Mengambil nilai tertinggi dari cabang kiri atau kanan dan ditambahkan 1.
+Baris 60: Masukkan pesanan utama (root) ke dalam antrean buatan.
 
-Baris 61: (Baris kosong)
+Baris 61: Selama antrean buatan masih ada isinya...
 
-Baris 62: Fungsi mencetak seluruh pesanan secara menyamping (dari tingkat teratas ke bawah).
+Baris 62: ...ambil dan keluarkan pesanan urutan paling depan.
 
-Baris 63: Jika tree masih belum ada isinya (kosong).
+Baris 63: Cetak nomor antrean dan nama menunya ke layar.
 
-Baris 64: Tampilkan teks "(Tidak ada pesanan)".
+Baris 64: Jika pesanan tersebut punya cabang kiri...
 
-Baris 65: Keluar dari fungsi (berhenti).
+Baris 65: ...tambahkan cabang kirinya ke antrean buatan untuk dicetak nanti.
 
-Baris 66: Membuat list kosong queue (antrean) untuk membantu proses pencetakan.
+Baris 66: Jika pesanan tersebut punya cabang kanan...
 
-Baris 67: Memasukkan posisi awal (root) ke dalam list antrean.
+Baris 67: ...tambahkan cabang kanannya ke antrean buatan untuk dicetak nanti.
 
-Baris 68: Mengulang proses selama masih ada isi di list antrean.
+Baris 68: Cetak satu baris kosong (enter) sebagai pembatas (agar lebih rapi).
 
-Baris 69: Mengeluarkan data pertama dari antrean dan menyimpannya di variabel current.
+Baris 69: (Baris kosong)
 
-Baris 70: Mencetak nomor antrean dan nama pesanan ke layar.
+Baris 70: Fungsi mencari pesanan yang urutannya berada tepat setelah suatu nomor (successor).
 
-Baris 71: Jika node saat ini memiliki anak di sebelah kiri.
+Baris 71: Mulai pencarian dari akar pohon.
 
-Baris 72: Tambahkan anak kiri tersebut ke list antrean untuk diproses nanti.
+Baris 72: Siapkan variabel successor dengan nilai kosong sementara.
 
-Baris 73: Jika node saat ini memiliki anak di sebelah kanan.
+Baris 73: Lakukan pencarian selama posisi node saat ini masih ada (belum ujung)...
 
-Baris 74: Tambahkan anak kanan tersebut ke list antrean.
+Baris 74: Jika nomor referensi lebih kecil dari posisi node saat ini...
 
-Baris 75: Mencetak baris kosong (enter) agar hasil cetak terlihat rapi.
+Baris 75: ...catat node ini karena kemungkinan ini adalah pesanan tepat setelahnya.
 
-Baris 76: (Baris kosong)
+Baris 76: ...dan lanjutkan pencarian ke sebelah kiri agar mencari selisih paling dekat.
 
-Baris 77: Fungsi untuk mencari pesanan dengan nomor terdekat di atasnya (successor).
+Baris 77: Jika nomor referensi lebih besar dari posisi saat ini...
 
-Baris 78: Mulai pencarian dari akar (root).
+Baris 78: ...langsung cari saja ke sebelah kanan (tidak perlu mencatat).
 
-Baris 79: Menetapkan nilai pencarian successor awalnya kosong.
+Baris 79: Jika angkanya sama persis dengan yang dicari...
 
-Baris 80: Looping berjalan terus selama node yang dicek tidak kosong.
+Baris 80: ...hentikan perulangan.
 
-Baris 81: Jika angka yang dicari lebih kecil dari node saat ini.
+Baris 81: Jika setelah mencari ke ujung pohon target tetap tidak ditemukan...
 
-Baris 82: Catat node saat ini sebagai kandidat pengganti/lanjutan sementara (successor).
+Baris 82: ...kembalikan indikasi gagal (kosong dan False).
 
-Baris 83: Terus bergeser ke cabang kiri.
+Baris 83: Jika node yang dicari tadi ketemu dan dia punya cabang kanan...
 
-Baris 84: Jika angka yang dicari lebih besar dari node saat ini.
+Baris 84: ...maka pesanan yang tepat setelahnya pasti adalah nilai paling kecil di cabang kanan itu.
 
-Baris 85: Langsung lompat dan cek kecabang kanan tanpa mencatat kandidat.
+Baris 85: Jika sama sekali tidak ditemukan ada node successor...
 
-Baris 86: Jika angkanya persis sama (ditemukan posisinya).
+Baris 86: ...kembalikan indikasi gagal (kosong dan False).
 
-Baris 87: Berhenti melakukan pencarian perulangan.
+Baris 87: Kembalikan nomor antrean, nama menu selanjutnya, dan indikator sukses (True).
 
-Baris 88: Setelah perulangan, jika ternyata node-nya tidak ditemukan (kosong).
+Baris 88: (Baris kosong)
 
-Baris 89: Kembalikan informasi bahwa pencarian lanjutan gagal (False).
+Baris 89: Fungsi mencari pesanan yang urutannya berada tepat sebelum suatu nomor (predecessor).
 
-Baris 90: Jika node ditemukan dan memiliki anak di sebelah kanan.
+Baris 90: Mulai pencarian dari akar pohon.
 
-Baris 91: Timpa kandidat sebelumnya. Nilai penerusnya pasti ada di nilai terkecil di cabang kanan tersebut.
+Baris 91: Siapkan variabel predecessor dengan nilai kosong.
 
-Baris 92: Jika di akhir tidak ada satupun nilai yang lebih besar (tidak punya successor).
+Baris 92: Lakukan perulangan selama masih ada pesanan yang dicek...
 
-Baris 93: Kembalikan informasi kegagalan (False).
+Baris 93: Jika nomor yang direferensikan lebih besar dari pesanan saat ini...
 
-Baris 94: Kembalikan nomor antrean, nama pesanan, dan status pencarian sukses (True).
+Baris 94: ...catat pesanan ini sebagai calon kuat sebelumnya,
 
-Baris 95: (Baris kosong)
+Baris 95: ...dan lanjutkan mencari ke cabang kanan.
 
-Baris 96: Fungsi untuk mencari pesanan dengan nomor terdekat di bawahnya (predecessor).
+Baris 96: Jika nomor lebih kecil dari pesanan saat ini...
 
-Baris 97: Memulai posisi pengecekan dari puncak tree (root).
+Baris 97: ...cukup lompati dan lanjut cek cabang kiri.
 
-Baris 98: Menetapkan nilai predecessor awalnya kosong.
+Baris 98: Jika angkanya pas sama dengan yang dicari...
 
-Baris 99: Looping selama pencarian belum berujung pada kekosongan (None).
+Baris 99: ...hentikan perulangan.
 
-Baris 100: Jika angka yang dicari lebih besar dari node saat ini.
+Baris 100: Jika nomor tadi dicari hingga ujung tidak ketemu...
 
-Baris 101: Simpan node saat ini sebagai kandidat angka lebih kecil sementara (predecessor).
+Baris 101: ...kembalikan indikasi bahwa data tidak ada (False).
 
-Baris 102: Geser pencarian selanjutnya ke cabang kanan.
+Baris 102: Jika node ketemu dan ia memiliki cabang anak sebelah kiri...
 
-Baris 103: Jika angka yang dicari lebih kecil dari node saat ini.
+Baris 103: ...pindah ke anak cabang sebelah kiri,
 
-Baris 104: Geser pencarian langsung ke cabang kiri tanpa mencatat kandidat.
+Baris 104: ...lalu telusuri terus sampai menyentuh anak bagian paling kanan,
 
-Baris 105: Jika angkanya persis sama (node ditemukan).
+Baris 105: ...geser terus sampai mentok kanan.
 
-Baris 106: Berhentikan pencarian looping.
+Baris 106: Node paling kanan ini adalah pesanan pendahulu sebenarnya.
 
-Baris 107: Mengecek ulang, jika ujung-ujungnya node tidak ketemu di dalam sistem.
+Baris 107: Jika setelah diproses pun predecessor masih kosong...
 
-Baris 108: Kembalikan pesan kegagalan (False).
+Baris 108: ...kembalikan tanda tidak ada pesanan sebelumnya (False).
 
-Baris 109: Jika node yang dicari ketemu dan memiliki anak cabang kiri.
+Baris 109: Kembalikan nomor antrean, nama menu sebelumnya, beserta tanda sukses (True).
 
-Baris 110: Mulai mencari ke bawah dari anak cabangnya yang kiri (temp).
+Baris 110: (Baris kosong)
 
-Baris 111: Melakukan looping mencari terus ke arah kanan mentok.
+Baris 111: (Baris kosong)
 
-Baris 112: Menggeser pengecekan ke kanan.
+Baris 112: Mendefinisikan program utama main tempat aplikasi dijalankan berinteraksi dengan manusia.
 
-Baris 113: Tetapkan node paling kanan tersebut sebagai nilai predecessor yang paling tepat.
+Baris 113: Membuat sistem pesan (objek) baru dari class BSTLanjut bernama bst.
 
-Baris 114: Jika di akhir pencarian nilai predecessor sama sekali tidak ditemukan.
+Baris 114: Memberi nilai awal 0 untuk variabel pemilih menu.
 
-Baris 115: Mengembalikan informasi gagal mencari angka yang lebih kecil.
+Baris 115: Membuat perulangan tiada henti, aplikasi tetap jalan asalkan pengguna tidak memilih opsi angka 6.
 
-Baris 116: Mengembalikan nomor antrean, nama pesanan, dan status sukses (True).
+Baris 116: Mencetak header/judul aplikasi ke layar.
 
-Baris 117: (Baris kosong)
+Baris 117: Menampilkan pilihan pertama (Tambah Pesanan).
 
-Baris 118: (Baris kosong)
+Baris 118: Menampilkan pilihan kedua (Pesanan Selesai).
 
-Baris 119: Mendefinisikan fungsi utama aplikasi berjalan (main()).
+Baris 119: Menampilkan pilihan ketiga (Lihat Semua Antrean).
 
-Baris 120: Membuat cetakan objek dari class BSTLanjut ke dalam variabel bernama bst.
+Baris 120: Menampilkan pilihan keempat (Cek Berikutnya).
 
-Baris 121: Mengatur variabel sementara pilih = 0 untuk menampung masukan menu pengguna.
+Baris 121: Menampilkan pilihan kelima (Cek Sebelumnya).
 
-Baris 122: Membuat perulangan yang akan terus muncul selama pengguna belum menginput angka 6.
+Baris 122: Menampilkan pilihan keenam (Keluar).
 
-Baris 123: Menampilkan judul "Sistem Pesanan Restoran Serba Ada".
+Baris 123: Membuka penanganan error try-except (agar jika salah ketik, aplikasi tidak langsung mati).
 
-Baris 124: Menampilkan menu 1 ke layar teks.
+Baris 124: Meminta pengguna memasukkan angka pilihan dan menyimpannya di variabel pilih.
 
-Baris 125: Menampilkan menu 2 ke layar teks.
+Baris 125: Menangkap error kalau pengguna memasukkan teks huruf alih-alih angka.
 
-Baris 126: Menampilkan menu 3 ke layar teks.
+Baris 126: Memberikan notifikasi "Input tidak valid!".
 
-Baris 127: Menampilkan menu 4 ke layar teks.
+Baris 127: Melewati siklus ini dan langsung kembali menampilkan daftar menu (lanjut ke atas loop).
 
-Baris 128: Menampilkan menu 5 ke layar teks.
+Baris 128: Jika angka yang dipilih adalah 1...
 
-Baris 129: Menampilkan menu 6 ke layar teks (Keluar).
+Baris 129: Buka penanganan error khusus untuk fitur tambah pesanan.
 
-Baris 130: Blok try digunakan untuk mencegah error (program berhenti tiba-tiba) saat menerima input pengguna.
+Baris 130: Meminta nomor antrean (harus angka murni).
 
-Baris 131: Meminta pengguna memasukkan angka untuk variabel pilih.
+Baris 131: Meminta nama menu pesanan (boleh teks).
 
-Baris 132: Menangkap error tipe ValueError (jika misalnya pengguna tidak sengaja mengetik huruf).
+Baris 132: Simpan ke dalam sistem struktur pohon dengan memanggil fungsi insert.
 
-Baris 133: Tampilkan pemberitahuan bahwa input salah.
+Baris 133: Tampilkan konfirmasi bahwa pesanan sudah masuk.
 
-Baris 134: Gunakan perintah continue untuk mengulang menu ke atas lagi.
+Baris 134: Tangkap error jika pengguna mengetik huruf di isian nomor antrean.
 
-Baris 135: Mengecek apakah pengguna memilih menu nomor 1.
+Baris 135: Peringatkan bahwa antrean harus berupa angka (bulat).
 
-Baris 136: Blok pengaman try lagi saat menginput detail nomor antrean pesanan.
+Baris 136: Jika yang dipilih angka 2...
 
-Baris 137: Meminta input nomor antrean ke variabel x dalam bentuk angka (integer).
+Baris 137: Buka blok pelindung error untuk fitur penyelesaian pesanan.
 
-Baris 138: Meminta input nama menu masakan ke variabel y.
+Baris 138: Minta nomor antrean berapa yang baru saja selesai disajikan (wajib angka).
 
-Baris 139: Memasukkan x dan y ke dalam fungsi insert pada objek bst.
+Baris 139: Hapus nomor antrean tersebut dari sistem melalui pemanggilan fungsi delete.
 
-Baris 140: Cetak pesan sukses jika pesanan baru sudah masuk.
+Baris 140: Tampilkan info bahwa antrean nomor sekian telah diserahkan dan dihapus.
 
-Baris 141: Menangkap apabila input pada Baris 137 adalah huruf, bukan angka.
+Baris 141: Tangkap pesan error kalau dimasukkan abjad, bukan angka.
 
-Baris 142: Tampilkan pesan teguran ke pengguna bahwa nomor antrean wajib angka.
+Baris 142: Beri tahu bahwa inputan keliru.
 
-Baris 143: Cek apakah pengguna memilih opsi menu 2.
+Baris 143: Jika opsi yang dipilih angka 3...
 
-Baris 144: Pengaman blok try ketika ingin menyelesaikan antrean.
+Baris 144: Beri tulisan awalan (header) untuk daftar pesan yang sedang antre.
 
-Baris 145: Meminta nomor antrean yang ingin dihapus lalu mengubahnya ke tipe data integer di dalam variabel x.
+Baris 145: Panggil fungsi level_order untuk mencetak struktur antrean dari atas ke bawah.
 
-Baris 146: Memanggil perintah menghapus node (pesanan) dari objek bst berdasarkan input x.
+Baris 146: Jika opsi yang dipilih angka 4...
 
-Baris 147: Tampilkan pesan bahwa antrean tersebut telah berhasil diselesaikan/dihapus.
+Baris 147: Buka keamanan blok penanganan error.
 
-Baris 148: Menangkap error di menu nomor 2 apabila user memasukkan karakter non-angka.
+Baris 148: Minta titik fokus pencarian: siapa yang berada setelah nomor berapa?
 
-Baris 149: Berikan peringatan bahwa yang diinput tidak sah.
+Baris 149: Cari ke dalam pohon sistem melalui fungsi find_successor.
 
-Baris 150: Cek apakah pengguna memilih menu 3.
+Baris 150: Jika pesanan setelahnya berhasil diidentifikasi...
 
-Baris 151: Tampilkan kalimat awalan "Daftar Pesanan yang Sedang Diproses: ".
+Baris 151: ...Cetak nomor dan menu yang harus disiapkan.
 
-Baris 152: Tampilkan struktur tree dengan menggunakan fungsi level_order.
+Baris 152: Jika urutan setelahnya kosong...
 
-Baris 153: Cek apakah pengguna memilih menu 4 (Cek pesanan lanjutan).
+Baris 153: ...Sampaikan bahwa tidak ada pesanan lagi atau nomor tersebut adalah pesanan terakhir.
 
-Baris 154: Blok try mengamankan input nomor pencarian.
+Baris 154: Tangkap error tipe data semisal huruf dimasukkan di isian angka.
 
-Baris 155: Meminta pengguna menginput antrean patokan pencarian untuk selanjutnya.
+Baris 155: Beri pemberitahuan bahwa yang ditekan bukan angka.
 
-Baris 156: Memanggil fungsi find_successor lalu memecah hasilnya ke variabel: ans (nomor), wer (nama), found (status).
+Baris 156: Jika yang dipilih angka 5...
 
-Baris 157: Mengecek jika status nilai dari found bernilai True (berhasil ditemukan).
+Baris 157: Blok pengaman (try-except) untuk proses pencarian ini.
 
-Baris 158: Tampilkan nama pesanan dan antrean selanjutya yang ditemukan di layar pengguna.
+Baris 158: Tanya pengguna mencari data pesanan sebelum antrean nomor berapa.
 
-Baris 159: Apabila gagal / found bernilai False.
+Baris 159: Lacak dalam antrean lewat fungsi find_predecessor.
 
-Baris 160: Tampilkan konfirmasi pesan bahwa antrean tersebut memang tidak ada pesanan setelahnya.
+Baris 160: Cek apakah ketemu atau tidak (parameter found bernilai True/False).
 
-Baris 161: Menangkap gagal input string di blok menu 4.
+Baris 161: Bila ketemu, tunjukkan rincian pesanan tersebut.
 
-Baris 162: Tampilkan teks input tidak valid.
+Baris 162: Apabila tidak ditemukan...
 
-Baris 163: Cek apakah pengguna memilih menu 5.
+Baris 163: ...Beri kabar bahwa itu adalah daftar pertama, tidak ada yang mendahului, atau nomornya salah.
 
-Baris 164: Memulai pengamanan try input khusus menu ke-5.
+Baris 164: Antisipasi crash jika mengetik abjad.
 
-Baris 165: Meminta angka antrean pesanan yang ingin dilacak nomor sebelumnya.
+Baris 165: Tolak input selain angka.
 
-Baris 166: Memanggil fungsi find_predecessor dan mengisikan hasil 3 nilai balasannya ke ans, wer, found.
+Baris 166: Kalau pengguna mengetik angka 6 dari menu awal...
 
-Baris 167: Jika pencarian statusnya True (berhasil ditemukannya angka sebelumnya).
+Baris 167: ...tampilkan perpisahan, "Program selesai."
 
-Baris 168: Cetak konfirmasi nomor dan pesanan yang dicari ke layar.
+Baris 168: Dan kalau mereka memasukkan angka asal (misal 9 atau 100)...
 
-Baris 169: Jika status pencarian berstatus gagal (False).
+Baris 169: ...sampaikan keterangan bahwa pilihannya di luar nalar.
 
-Baris 170: Cetak pesan error yang menyimpulkan antrean yang dicari paling pertama atau memang kosong.
+Baris 170: (Baris kosong)
 
-Baris 171: Tangkap error masukan di menu ke-5 (misal user mengetik huruf 'A').
+Baris 171: (Baris kosong)
 
-Baris 172: Cetak pesan bahwa masukan salah.
+Baris 172: Memeriksa apakah file Python ini dijalankan langsung sebagai program utama atau cuma file numpang import dari file lain.
 
-Baris 173: Mengecek opsi terakhir, jika pengguna menekan angka 6.
-
-Baris 174: Cetak tulisan "Program selesai." dan perulangan while di baris 122 otomatis putus dengan sendirinya.
-
-Baris 175: Baris pancingan ini (else) bekerja jika pengguna menginput angka tapi selain 1,2,3,4,5, dan 6.
-
-Baris 176: Cetak peringatan "Pilihan tidak valid!" ke monitor.
-
-Baris 177: (Baris kosong)
-
-Baris 178: (Baris kosong)
-
-Baris 179: Perintah untuk mengecek apakah script Python ini dieksekusi secara langsung.
-
-Baris 180: Jika ya, jalankan fungsi main() untuk memanggil program keseluruhan.
+Baris 173: Jika benar, segera jalankan main() (memunculkan menu pertama kalinya).
 
 ## Output:
 <img width="461" height="870" alt="image" src="https://github.com/user-attachments/assets/1ab38de5-fc17-4a2e-8820-6adf7fc137bc" />
