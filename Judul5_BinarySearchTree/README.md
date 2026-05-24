@@ -1,4 +1,5 @@
 # Sistem Pesananan Restoran Serba Ada
+Sistem ini merupakan simuali antrean pesanan menggunakan struktur data binary serch tree. Sistem menggunakan bahasa pemrograman python, yang berisikan class Node yang berisikan dua key, class BSTLanjut untuk struktur datanya. Dalam class BSTLanjut terdapat fungsi insert_node, insert, find_min_node, delete_node, delete, 
 
 ## Source Code:
 <img width="660" height="689" alt="image" src="https://github.com/user-attachments/assets/fec2fe7e-7790-4bb0-985a-0a18f6627856" />
