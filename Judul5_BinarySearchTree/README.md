@@ -365,4 +365,4 @@ Baris 173: Jika ya, jalankan fungsi main() untuk memanggil program keseluruhan.
 <img width="581" height="186" alt="image" src="https://github.com/user-attachments/assets/282f5f9e-8849-4b19-9535-38fa0ffb4345" />
 
 
-### Youtube:
+### Youtube: https://youtu.be/BAZbJ1eb2Tg?si=wa343wn_5nkOIqJI
