@@ -5,7 +5,11 @@ fungsi insert_node dan insert digunakan untuk memasukkan nomor pesanan ke dalam 
 
 ## Source Code:
 <img width="660" height="689" alt="image" src="https://github.com/user-attachments/assets/fec2fe7e-7790-4bb0-985a-0a18f6627856" />
-
+<img width="719" height="872" alt="image" src="https://github.com/user-attachments/assets/db5319c2-3714-43a4-852c-606f1599e09f" />
+<img width="586" height="458" alt="image" src="https://github.com/user-attachments/assets/e954112b-6caa-403a-b848-ffc82852a3fc" />
+<img width="566" height="527" alt="image" src="https://github.com/user-attachments/assets/2f959526-eee9-43c7-8c08-7b2acb26277b" />
+<img width="919" height="896" alt="image" src="https://github.com/user-attachments/assets/5dbaf2b2-207f-40ae-adc4-99a78197dc20" />
+<img width="1300" height="528" alt="image" src="https://github.com/user-attachments/assets/39747c81-a4c6-42c0-b7ca-5e110f5c4ce9" />
 
 ## Penjelasan:
 
