@@ -1,4 +1,7 @@
 # Sistem Pengelolaan Data Mahasiswa
+Sistem ini bertujuan untuk mengelola data mahasiswa yang berupa Nama, NPM, dan IPK menggunakan struktur data Hash Map menggunakan bahasa pemrograman python. Didalam sistem ada menu untuk menambah, mencari, menghapus, dan menampilkan data mahasiswa. Saat sistem awal berjalan akan langsung menampilkan menu yang ada dengan data yang masih kosong. Saat user menginput 1, maka sistem akan meminta input berupa Nama, NPM, dan IPK dari mahasiswa. Selanjutnya ada menu cari data mahasiswa saaat user menginput angka 2, Menu ini akan meminta input dari user berupa NPM dan akan mencarinya menggunakan fungsi search yang ada pada kode untuk mencari NPM dari mahasiswa yang ingin dicari. Selanjutnya sistem akan menampilkan data mahasiswa jika data yang dicari ada pada Hash Map, dan akan menampilkan pesan Tidak ditemukan saat data yang dicari tidak ada.
+
+Selanjutnya menu ke 3 yaitu menu untuk menghapus data mahasiswa. Di menu ini sistem akan meminta input berupa NPM dari mahasiswa yang ingin dihapus datanya, setelah itu akan mencari data mahasiswa menggunakan fungsi search. Jika data ada dalam Hash Map maka data akan dihapus, dan jika tidak ditemukan data yang ingin dihapus di dalam Hash Map, maka sistem akan menampilkan pesan data mahasiswa tidak ada. Dan yang terakhir ada menu untuk menampilkan seluruh data mahasiswa yang ada dalam Hash Map dengan menggunakan fungsi search pada kode.
 
 ## Source Code:
 <img width="581" height="660" alt="image" src="https://github.com/user-attachments/assets/a2f85e4e-3acc-4650-bc39-22418c15b69c" />
@@ -248,4 +251,4 @@ Baris 118: Menjalankan/memanggil fungsi main() untuk mengawali seluruh program.
 <img width="633" height="753" alt="image" src="https://github.com/user-attachments/assets/b2a72455-0fc7-4c93-8490-9d4dfcfc4443" />
 <img width="492" height="672" alt="image" src="https://github.com/user-attachments/assets/7f4dd3c4-5a54-4a8e-88bf-2592565f7020" />
 
-### Youtube: 
+### Youtube: https://youtu.be/O__ApQ77JRk
