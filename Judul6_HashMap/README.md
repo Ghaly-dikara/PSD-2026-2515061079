@@ -244,5 +244,8 @@ Baris 117: Pengecekan otomatis bawaan Python untuk memastikan script hanya dieks
 Baris 118: Menjalankan/memanggil fungsi main() untuk mengawali seluruh program.
 
 ## Output:
+<img width="432" height="772" alt="image" src="https://github.com/user-attachments/assets/98f332d3-55c9-4928-a068-f59d732c2f4c" />
+<img width="633" height="753" alt="image" src="https://github.com/user-attachments/assets/b2a72455-0fc7-4c93-8490-9d4dfcfc4443" />
+<img width="492" height="672" alt="image" src="https://github.com/user-attachments/assets/7f4dd3c4-5a54-4a8e-88bf-2592565f7020" />
 
 ### Youtube: 
